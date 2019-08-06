@@ -1,0 +1,9 @@
+tuplex=(1,4,5,7,8,9,0)
+print(tuplex)
+tuplex=tuplex+(9,)
+print(tuplex)
+tuplex=tuplex[:5]+(12,65,100)+tuplex[:5]
+print(tuplex)
+list1=list(tuplex)
+list1.append(11)
+tuplex=tuple(list1)
